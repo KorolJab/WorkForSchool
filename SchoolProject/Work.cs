@@ -6,6 +6,9 @@ namespace SchoolProject
 {
     class Work
     {
-        
+        public Work()
+        {
+
+        }
     }
 }

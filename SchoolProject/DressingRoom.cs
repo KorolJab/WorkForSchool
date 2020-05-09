@@ -6,6 +6,15 @@ namespace SchoolProject
 {
     class DressingRoom
     {
-        protected List<object> Card;
+        protected Dictionary<int, bool> hooks;
+        public void UnblockSpoti()
+        { 
+        }
+        public void BlockSpoti()
+        {
+        }
+        public void CheckSpoti()
+        {
+        }
     }
 }
