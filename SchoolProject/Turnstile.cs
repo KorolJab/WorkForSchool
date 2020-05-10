@@ -11,12 +11,12 @@ namespace SchoolProject
         //открыть турникет
         public void OpenGate()
         {
-
+            state = true;
         }
         //зарыть турникет
         public void CloseGate()
         {
-
+            state = false;
         }
     }
 }

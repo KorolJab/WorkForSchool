@@ -7,14 +7,22 @@ namespace SchoolProject
     class DressingRoom
     {
         protected Dictionary<int, bool> hooks;
+        private bool spotiState;
         public void UnblockSpoti()
-        { 
+        {
+            spotiState = true;
         }
         public void BlockSpoti()
         {
+            spotiState = false;
         }
-        public void CheckSpoti()
+        public bool CheckSpoti()
         {
-        }
+           
+            
+                return spotiState;
+           
+        } 
+        
     }
 }
