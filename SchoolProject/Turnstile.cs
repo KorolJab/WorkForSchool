@@ -8,15 +8,28 @@ namespace SchoolProject
     {
         //состояние(открытое/закрытое)
         public bool state;
-        //открыть турникет
         public void OpenGate()
         {
-            state = true;
+            //открывает турникет
+
         }
-        //зарыть турникет
         public void CloseGate()
         {
+            //зарывает турникет
+
+        }
+          //включает турникет
+        public void turnOnTurnstile()
+        {
+            
+            state = true;
+        }
+        //выключает турникет
+
+        public void turnOffTurnstile()
+        {
             state = false;
+
         }
     }
 }
